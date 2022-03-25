@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+.container {
+  text-align: center;
+  padding: 5px;
+}
+.container form {
+  width: 300px;
+  height: 200px auto;
+  margin: 10px auto;
+}
+.errors-list .error {
+  padding: 15px;
+  background-color: rgba(244, 67, 54, 0.11);
+  color: #f44336fa;
+  margin-bottom: 15px;
+  width: 98%;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2), 0 7px 12px 0 rgba(0, 0, 0, 0.15);
+}
+.form-group {
+  margin-bottom: 18px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-input {
+  padding: 10px 15px;
+  background-color: #efefef;
+  border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 40px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 13px 0 rgba(0, 0, 0, 0.18);
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+.send-button {
+  display: block;
+  background-color: #2196f3;
+  color: #fff;
+  border-color: transparent;
+  padding: 10px 20px;
+  width: 100%;
+  font-size: 24px;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 19px 0 rgba(0, 0, 0, 0.18);
+}
+
+.links-urls {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+}
+.link {
+  padding: 10px 20px;
+  display: block;
+  background-color: #eee;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #777;
+}
+
+.aa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 32%; /**/
+  height: 580px;
+  padding: 30px 30px;
+  border-radius: 9px;
+  box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.19);
+}
